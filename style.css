@@ -1,7 +1,7 @@
 h1 {
     color: rgb(0, 0, 0);
     /* Couleur du texte */
-    background-color: rgba(174, 0, 255, 0.703);
+    background-color: rgba(254, 251, 255, 0.881);
     /* Fond bleu */
     padding: 10px;
     /* Espacement intérieur */
@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-    background-image: url('assets/abstract_pink_hand_painted_watercolour_texture_background_0107.jpg');
+    background-image: url('assets/5594016.jpg');
     /* Remplace par le chemin de ton image */
     background-size: cover;
     /* Ajuste l'image pour couvrir toute la page */
@@ -35,4 +35,17 @@ body {
     /* Évite les espaces indésirables */
     margin: 20px auto;
     /* Centre l'image horizontalement */
+}
+
+.passions {
+    color: rgb(0, 0, 0);
+    /* Couleur du texte */
+    background-color: rgba(255, 255, 255, 0.916);
+    /* Fond bleu */
+    padding: 10px;
+    /* Espacement intérieur */
+    border-radius: 5px;
+    /* Coins arrondis */
+    width: fit-content;
+    margin: auto;
 }
