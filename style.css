@@ -1,11 +1,11 @@
 h1 {
     color: rgb(0, 0, 0);
     /* Couleur du texte */
-    background-color: rgba(254, 251, 255, 0.881);
+    background-color: rgb(254, 251, 255);
     /* Fond bleu */
     padding: 10px;
     /* Espacement intérieur */
-    border-radius: 5px;
+    border-radius: 20px;
     /* Coins arrondis */
     width: fit-content;
     margin: auto;
@@ -49,3 +49,57 @@ body {
     width: fit-content;
     margin: auto;
 }
+h2 {
+    color: rgb(0, 0, 0);
+    /* Couleur du texte */
+    background-color: rgb(254, 251, 255);
+    /* Fond bleu */
+    padding: 10px;
+    /* Espacement intérieur */
+    border-radius: 20px;
+    /* Coins arrondis */
+    width: fit-content;
+    margin: auto;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    /* Couleur du texte */
+    background-color: rgb(254, 251, 255);
+    /* Fond bleu */
+    padding: 10px;
+    /* Espacement intérieur */
+    border-radius: 20px;
+    /* Coins arrondis */
+    width: fit-content;
+    margin: auto;
+}
+p {
+    color: rgb(0, 0, 0);
+    /* Couleur du texte */
+    background-color: rgb(254, 251, 255);
+    /* Fond bleu */
+    padding: 10px;
+    /* Espacement intérieur */
+    border-radius: 20px;
+    /* Coins arrondis */
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* centre les images horizontalement */
+    gap: 10px;                /* espace entre les deux */
+    margin-top: 50px;         /* optionnel : ajoute un peu d'espace en haut */
+    justify-content: center;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
